@@ -1,0 +1,22 @@
+.home__container {
+    height: 100vh;
+    background-image: url('../../assets/home-bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% calc(75% - 15vw);
+    .welcome-box {
+        padding: 2rem;
+        background-color: $color-primary;
+        .welcome-box__title {
+            color: $color-titles;
+            padding-bottom: 2rem;
+            text-transform: uppercase;
+            @include fluid-font(16px, 23px);
+        }
+        .welcome-box__text {
+            color: #fff;
+            text-align: justify;
+            @include fluid-font(12px, 18px);
+        }
+    }
+}

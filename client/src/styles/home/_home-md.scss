@@ -1,4 +1,11 @@
 .home__container {
     background-image: url('../../assets/bg.png');
     background-size: 100% 100%;
+    .welcome-box {
+        position: relative;
+        top: 20%;
+        left: 0;
+        transform: translateX(0);
+        max-width: 50%;
+    }
 }
